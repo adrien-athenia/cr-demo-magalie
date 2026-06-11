@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useState } from "react";
 import { createClient } from "@supabase/supabase-js";
 import loginMagalieClean from "./login-magalie-clean.png";
 
-const MODE_DEMO = import.meta.env.VITE_MODE_DEMO === "true";
+const MODE_DEMO = true;
 const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL || "";
 const SUPABASE_ANON_KEY = import.meta.env.VITE_SUPABASE_ANON_KEY || "";
 
